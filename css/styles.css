@@ -116,6 +116,12 @@ p {
   justify-content: flex-end;
 }
 
+.header-line {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -124,8 +130,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 .hero-contant {
@@ -147,10 +152,6 @@ p {
 
 .logo-web {
   color: var(--accent-cl);
-}
-
-.logo-footer {
-  padding-top: 60px;
 }
 
 .logo-white {
@@ -330,12 +331,11 @@ p {
   margin-bottom: 30px;
 }
 
-.portfolio-photo {
-  margin-bottom: 20px;
+.portfolio-text {
+  padding: 20px 24px;
 }
 
 .title-portfolio {
-  padding: 0 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -345,7 +345,6 @@ p {
 }
 
 .title-description {
-  padding: 0 24px 20px;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
@@ -399,6 +398,7 @@ p {
 }
 
 .container-footer {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
